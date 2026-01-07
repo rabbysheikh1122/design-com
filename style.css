@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 section#home{
     min-height: 100vh;
@@ -175,4 +176,69 @@ section.our-process{
     color: black;
     box-shadow: 2px 2px 7px aqua;
 }
-    
+
+/* design */
+.our-design-tems{
+    background: #786f6f28;
+}
+.design-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:161px 50px;
+    gap: 45px;
+}
+.design-text h1{
+    font-size: 35px;
+    margin: 10px 0;
+}
+.design-text p{
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.design-text .btn{
+    background-color: rgba(0, 0, 0, 0.271);
+}
+.design-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.design-img img{
+    height: 150px;
+    width: 150px;
+}
+    /* footer */
+.footer-text{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    /* background-color: rebeccapurple; */
+}
+.footer-text h1{
+    font-size: 35px;
+    padding: 20px 0;
+}
+.footer-text p{
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+}
+.footer-text label{
+    font-size: 20px;
+}
+.footer-text input{
+    font-size: 18px;
+    color: black;
+    outline: none;
+    padding: 6px;
+    margin: 6px;
+}
+.footer-text .btn{
+    background-color: orange;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+ 
